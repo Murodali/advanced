@@ -1,0 +1,38 @@
+@import "../colors";
+
+.root {
+  padding: 16px 36px;
+  border: none;
+  outline: none;
+  text-align: center;
+  background-color: $orange;
+  border-radius: 8px;
+  div {
+    font-size: 1.25rem;
+  }
+}
+.maxWidth {
+  width: 100%;
+}
+
+.__disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  user-select: none;
+}
+
+.__size__small {
+  padding: 8px 8px;
+}
+
+.__type__contained {
+  background-color: $dark-blue;
+  color: $white;
+  border: none;
+}
+
+.__type__outlined {
+  background-color: $white;
+  color: $dark-blue;
+  border-color: $dark-blue;
+}

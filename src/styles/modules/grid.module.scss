@@ -1,0 +1,5 @@
+.grid{
+    display: grid;
+    width: 100%;
+  grid-template-columns: 15.5rem 1fr 33.5rem 1fr minmax(15.5rem, auto);
+}
